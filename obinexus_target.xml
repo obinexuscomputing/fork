@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ObinexusTargets>
+  <GitHub>
+    <TargetOrg>obinexus</TargetOrg>
+    <ForkVisibility>public</ForkVisibility>
+    <!-- If you want to force forking into a user account, set TargetUser -->
+    <TargetUser></TargetUser>
+  </GitHub>
+  <GitLab>
+    <TargetNamespace>obinexus</TargetNamespace>
+    <Visibility>public</Visibility>
+  </GitLab>
+  <ReleaseDefaults>
+    <Tag>v0.0.1</Tag>
+    <Name>Initial release</Name>
+    <Body>Auto-created release by obinexus fork tool</Body>
+  </ReleaseDefaults>
+  <Verification>
+    <RequireMimeType>true</RequireMimeType>
+    <AllowedMimeTypes>application/json,text/html,application/vnd.github.v3+json</AllowedMimeTypes>
+    <RequireHmacSignature>false</RequireHmacSignature>
+  </Verification>
+</ObinexusTargets>
